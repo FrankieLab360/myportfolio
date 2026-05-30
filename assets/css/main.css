@@ -632,12 +632,31 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero {
+    align-items: flex-start;
+    padding: 30px 0 20px;
+  }
+
+  .hero .container {
+    padding-top: 20px;
+  }
+
   .hero h2 {
     font-size: 32px;
   }
 
   .hero p {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .hero {
+    background: url("assets/img/hero-bg definitivo mobile.jpg") center center / cover no-repeat;
+  }
+
+  .hero img {
+    display: none;
   }
 }
 
