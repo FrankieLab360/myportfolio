@@ -225,7 +225,7 @@ h6 {
   border-radius: 50%;
   cursor: pointer;
   position: fixed;
-  top: 18px;
+  top: 35px;
   right: 18px;
   z-index: 9999;
   transition: background-color 0.3s;
@@ -662,11 +662,11 @@ section,
   }
     /* 3. TITOLO "FrankieLab360" PIÙ PICCOLO E POSIZIONATO A SINISTRA */
   .hero h2 {
-    font-size: 1.3rem;        /* Rimpicciolito */
+    font-size: 1.5rem;        /* Rimpicciolito */
     margin-top: 0;
     margin-bottom: 10px;
     text-align: left;
-    padding-right: 95px;      /* Evita la sovrapposizione con il bottone fisso */
+    padding-right: 90px;      /* Evita la sovrapposizione con il bottone fisso */
   }
 
     /* 4. TESTO SECONDARIO E ICONE SOCIAL CENTRATI SOTTO */
