@@ -29,8 +29,8 @@
   font-size: 3rem;
   letter-spacing: 0.15em;
   color: #FFD000;
-  -webkit-text-stroke: 
-  text-stroke: 
+  -webkit-text-stroke: 0.5px #14110F; 
+  paint-order: stroke fill
   /* fallback outline */
 }
 
