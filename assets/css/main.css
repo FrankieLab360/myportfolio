@@ -101,13 +101,13 @@ a:hover {
 .btn-cv {
   background-color: #FFD000;
   border-color: #FFD000;
-  color: #F3F3F3;
+  color: #14110F;
 }
 
 .btn-cv:hover,
 .btn-cv:focus {
-  background-color: #e6c000;
-  border-color: #e6c000;
+  background-color: #F3F3F3;
+  border-color: #F3F3F3;
   color: #14110F;
 }
 
