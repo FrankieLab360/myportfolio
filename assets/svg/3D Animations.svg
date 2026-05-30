@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Animated Twisted Block</title>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:About="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>Animated Rotating 3D object</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jarda</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>3D</rdf:li>
+            <rdf:li>animated</rdf:li>
+            <rdf:li>box</rdf:li>
+            <rdf:li>cube</rdf:li>
+            <rdf:li>object</rdf:li>
+            <rdf:li>rotating</rdf:li>
+            <rdf:li>twisted</rdf:li>
+            <rdf:li>volumetric</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Animated Rotating 3D object</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="animation_styles">
+    <style type="text/css">
+      @keyframes rotate360 {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @-moz-keyframes rotate360 {
+        from { -moz-transform: rotate(0deg); }
+        to   { -moz-transform: rotate(360deg); }
+      }
+      @-webkit-keyframes rotate360 {
+        from { -webkit-transform: rotate(0deg); }
+        to   { -webkit-transform: rotate(360deg); }
+      }
+
+      .rotate_vert {
+         animation: rotate360 5s linear infinite;
+        -moz-animation: rotate360 5s linear infinite;
+        -webkit-animation: rotate360 5s linear infinite;
+      }
+
+      .object3D { stroke: #555555; fill: #eeeeee ; stroke-width: 1 }
+    </style>
+  </defs>
+  <defs id="slices">
+    <path d="M -48 -45 L -48 45 c 0 2.12132 2.12132 3 3 3 L 45 48 c 2.12132 0 3 -2.12132 3 -3 L 48 -45 c 0 -2.12132 -2.12132 -3 -3 -3 L -45 -48 c -2.12132 0 -3 2.12132 -3 3 z M 33.6 -31.5 L 33.6 31.5 c 0 1.48492 -1.48492 2.1 -2.1 2.1 L -31.5 33.6 c -1.48492 0 -2.1 -1.48492 -2.1 -2.1 L -33.6 -31.5 c 0 -1.48492 1.48492 -2.1 2.1 -2.1 L 31.5 -33.6 c 1.48492 0 2.1 1.48492 2.1 2.1 z" id="slice1" transform="rotate (25)"/>
+    <path d="M -49.5826 -45 L -49.5826 45 c 0 3.24037 3.24037 4.58258 4.58258 4.58258 L 45 49.5826 c 3.24037 0 4.58258 -3.24037 4.58258 -4.58258 L 49.5826 -45 c 0 -3.24037 -3.24037 -4.58258 -4.58258 -4.58258 L -45 -49.5826 c -3.24037 0 -4.58258 3.24037 -4.58258 4.58258 z M 34.7078 -31.5 L 34.7078 31.5 c 0 2.26826 -2.26826 3.2078 -3.2078 3.2078 L -31.5 34.7078 c -2.26826 0 -3.2078 -2.26826 -3.2078 -3.2078 L -34.7078 -31.5 c 0 -2.26826 2.26826 -3.2078 3.2078 -3.2078 L 31.5 -34.7078 c 2.26826 0 3.2078 2.26826 3.2078 3.2078 z" id="slice2" transform="rotate (25)"/>
+    <path d="M -50 -45 L -50 45 c 0 3.53553 3.53553 5 5 5 L 45 50 c 3.53553 0 5 -3.53553 5 -5 L 50 -45 c 0 -3.53553 -3.53553 -5 -5 -5 L -45 -50 c -3.53553 0 -5 3.53553 -5 5 z M 35 -31.5 L 35 31.5 c 0 2.47487 -2.47487 3.5 -3.5 3.5 L -31.5 35 c -2.47487 0 -3.5 -2.47487 -3.5 -3.5 L -35 -31.5 c 0 -2.47487 2.47487 -3.5 3.5 -3.5 L 31.5 -35 c 2.47487 0 3.5 2.47487 3.5 3.5 z" id="slice3" transform="rotate (25)"/>
+  </defs>
+  <g id="object3D">
+    <g class="object3D" transform="translate (100 100) scale (1 0.34202)">
+      <g id="layer1" transform="translate (0 134.626) rotate (49.9753)">
+        <use class="rotate_vert" xlink:href="#slice1"/>
+      </g>
+      <g id="layer2" transform="translate (0 129.131) rotate (49.7781)">
+        <use class="rotate_vert" xlink:href="#slice2"/>
+      </g>
+      <g id="layer3" transform="translate (0 123.636) rotate (49.3844)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer4" transform="translate (0 118.142) rotate (48.7958)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer5" transform="translate (0 112.647) rotate (48.0147)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer6" transform="translate (0 107.152) rotate (47.044)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer7" transform="translate (0 101.657) rotate (45.8877)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer8" transform="translate (0 96.1617) rotate (44.5503)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer9" transform="translate (0 90.6668) rotate (43.0371)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer10" transform="translate (0 85.1718) rotate (41.354)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer11" transform="translate (0 79.6768) rotate (39.5078)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer12" transform="translate (0 74.1819) rotate (37.5056)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer13" transform="translate (0 68.6869) rotate (35.3553)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer14" transform="translate (0 63.192) rotate (33.0656)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer15" transform="translate (0 57.697) rotate (30.6454)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer16" transform="translate (0 52.2021) rotate (28.1042)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer17" transform="translate (0 46.7071) rotate (25.4521)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer18" transform="translate (0 41.2122) rotate (22.6995)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer19" transform="translate (0 35.7172) rotate (19.8574)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer20" transform="translate (0 30.2223) rotate (16.9369)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer21" transform="translate (0 24.7273) rotate (13.9496)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer22" transform="translate (0 19.2323) rotate (10.9072)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer23" transform="translate (0 13.7374) rotate (7.82172)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer24" transform="translate (0 8.24243) rotate (4.70542)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer25" transform="translate (0 2.74748) rotate (1.57054)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer26" transform="translate (0 -2.74748) rotate (-1.57054)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer27" transform="translate (0 -8.24243) rotate (-4.70542)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer28" transform="translate (0 -13.7374) rotate (-7.82172)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer29" transform="translate (0 -19.2323) rotate (-10.9072)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer30" transform="translate (0 -24.7273) rotate (-13.9496)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer31" transform="translate (0 -30.2223) rotate (-16.9369)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer32" transform="translate (0 -35.7172) rotate (-19.8574)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer33" transform="translate (0 -41.2122) rotate (-22.6995)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer34" transform="translate (0 -46.7071) rotate (-25.4521)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer35" transform="translate (0 -52.2021) rotate (-28.1042)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer36" transform="translate (0 -57.697) rotate (-30.6454)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer37" transform="translate (0 -63.192) rotate (-33.0656)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer38" transform="translate (0 -68.6869) rotate (-35.3553)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer39" transform="translate (0 -74.1819) rotate (-37.5056)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer40" transform="translate (0 -79.6768) rotate (-39.5078)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer41" transform="translate (0 -85.1718) rotate (-41.354)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer42" transform="translate (0 -90.6668) rotate (-43.0371)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer43" transform="translate (0 -96.1617) rotate (-44.5503)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer44" transform="translate (0 -101.657) rotate (-45.8877)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer45" transform="translate (0 -107.152) rotate (-47.044)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer46" transform="translate (0 -112.647) rotate (-48.0147)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer47" transform="translate (0 -118.142) rotate (-48.7958)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer48" transform="translate (0 -123.636) rotate (-49.3844)">
+        <use class="rotate_vert" xlink:href="#slice3"/>
+      </g>
+      <g id="layer49" transform="translate (0 -129.131) rotate (-49.7781)">
+        <use class="rotate_vert" xlink:href="#slice2"/>
+      </g>
+      <g id="layer50" transform="translate (0 -134.626) rotate (-49.9753)">
+        <use class="rotate_vert" xlink:href="#slice1"/>
+      </g>
+    </g>
+  </g>
+</svg>

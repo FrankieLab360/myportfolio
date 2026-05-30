@@ -1,0 +1,5 @@
+- Quando ho messo i 3 video nella sezione "animazione", il titolo e il paragrafo relativo a ciascun video andava in overlay rispetto ai tasti play/stop. Ho dunque chiesto che durante l'evento mouseover questo overlay non accadesse.
+- Modificare gli anchor della sezione services per rimandare a contacts.
+- Animazione hover di evidenziazione dei servizi
+- Font personalizzato scaricato e convertito in formato wooff2
+
