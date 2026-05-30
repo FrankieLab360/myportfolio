@@ -2,4 +2,22 @@
 - Modificare gli anchor della sezione services per rimandare a contacts.
 - Animazione hover di evidenziazione dei servizi
 - Font personalizzato scaricato e convertito in formato wooff2
+- Scaricato git
+- collegato da vc studio la mia cartella alla repository vuota su GitHub
+- cd "C:\Users\utente\Desktop\X\Università\webportfolio"
 
+git init
+git add .
+git commit -m "Primo upload"
+git branch -M main
+git remote add origin https://github.com/FrankieLab360/myportfolio.git
+git push -u origin main
+
+
+- per le modifiche: source control (rami a sinistra) oppure via terminale:
+
+git add .
+git commit -m "update"
+git push
+
+- 
