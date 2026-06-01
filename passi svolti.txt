@@ -21,3 +21,9 @@ git commit -m "update"
 git push
 
 - Disabilitare highligh (hover) su mobile
+
+
+Problema 1: difficoltà a comprendere il funzionamento di GIT.
+Problema 2: Overlay del titolo relativo ai video della sezione "Services"
+Problema 3: Incapacità a far funzionare il form della sezione "Contact"
+Problema 4: Problemi estetici e di lag relativi alla versione mobile
