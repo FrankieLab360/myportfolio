@@ -1136,6 +1136,18 @@ section,
 .services .service-item.item-pink:hover .icon path {
   fill: #f3268c;
 }
+/*--------------------------------------------------------------
+Disabilita highlight servizi su Mobile/Tablet
+--------------------------------------------------------------*/
+@media (max-width: 767.98px) {
+  .services .service-item h3::before,
+  .services .service-item p::before {
+    display: none; /* Rimuove completamente gli pseudo-elementi animati */
+  }
+  .services .service-item:hover {
+    box-shadow: none; /* Rimuove l'effetto ombra al tap/scroll */
+  }
+}
 
 /*--------------------------------------------------------------
 # Testimonials Section
