@@ -20,4 +20,4 @@ git add .
 git commit -m "update"
 git push
 
-- 
+- Disabilitare highligh (hover) su mobile
